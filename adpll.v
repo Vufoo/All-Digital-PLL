@@ -2,8 +2,7 @@ module ADPLL(
    input clk,
    input reset,
    input ref_signal,
-   
-   output feedback_signal
+   input feedback_signal
    
 );
    wire [11:0] delay;
